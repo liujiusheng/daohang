@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+"background": {
+      "page": "background.html"
+   },
+  "name": "我的主页",
+  "web_accessible_resources":["icon.png"],
+  "description": "This is the extension for http://www.freesite.cc.",
+  "version": "1.0",
+  "permissions": [
+          "tabs","contextMenus","http://*/","notifications"
+        ],
+  "browser_action": {
+		"default_icon": "icon.png",
+		"tooltip":"222"
+		//,"default_popup":"popup.html"
+  },
+  "icons": {
+          "16": "icon.png",
+          "48": "icon.png",
+          "128": "icon.png"
+        }
+
+}

@@ -1,0 +1,15 @@
+body{padding:5px;}
+strong{font-size:20px;padding:3px 15px;margin:5px;text-decoration:none;font-family:微软雅黑;color:#EA4335;}
+.pages{font-size:20px;padding:3px 15px;margin:5px;text-decoration:none;font-family:微软雅黑;border:solid 1px #dddddd;border-radius:3px;color:#337ab7;}
+input{width:94%;height:2em;margin:1%;padding:1%;border:solid 1px #dddddd;border-radius:3px;color:gray;-webkit-transition:box-shadow 2s ease-in-out;box-shadow:0 0 0 0 #33BAFF;}
+textarea{width:94%;height:8em;margin:1%;padding:1%;border-radius:3px;color:gray;-webkit-transition:box-shadow 2s ease-in-out;box-shadow:0 0 0 0 #33BAFF;}
+textarea:hover{border:solid 1px #33BAFF;box-shadow:0 0 5px 1px #33BAFF;border:solid 1px gray;}
+button{
+			width:96%;height:40px;margin:1%;border:none;background:#3AC8EC;background:-webkit-linear-gradient(top,#3AC8EC,#337AB7);color:white;border-radius:3px;box-shadow:0 2px 1px 1px #28608F;
+	}
+button:hover{box-shadow:0 0 5px 1px #33BAFF;height:42px;cursor:pointer;}
+.btn-half{width:46%}
+.list{height:70px;padding-top:5px;border-bottom:solid 1px #dddddd;list-style:none;}
+.list a{color:grey;text-decoration:none;}
+.footer{color:#dddddd;font-size:12px;text-align:center;margin-top:10px;}
+.footer > a{color:grey;font-size:14px;text-decoration:none;}
